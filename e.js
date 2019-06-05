@@ -19,15 +19,14 @@ class Line{
         return Math.sqrt(dx*dx + dy*dy);
     }
 }
-const A = new Point(0,1);
-const B = new Point(2,2);
-const AB = new Line(A,B);
-console.log(AB.length);
+// const A = new Point(0,1);
+// const B = new Point(2,2);
+// const AB = new Line(A,B);
+// console.log(AB.length);
 
- 
-  /**
- * A = Point(x,y)
- * B = Point(a,b)
- * C = Point(u,v)
- * tinh chu vi tam giac ABC
- */
+class Person{
+
+}
+
+module.exports = { Line, Person, number: 12, str: 'Hello' }
+
