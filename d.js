@@ -4,6 +4,11 @@
  */
 
 class Point{
+    /**
+     * 
+     * @param {number} x 
+     * @param {number} y 
+     */
     constructor(x, y){
         this.x = x;
         this.y = y
@@ -15,19 +20,7 @@ class Point{
         )
     }
 }
-const A = new Point(3,4);
-console.log(A.distance)
+// const A = new Point(3,4);
+// console.log(A.distance)
 
-
- /**
- * A = Point(x,y)
- * B = Point(a,b)
- * tinh do dai doan AB
- */
-
-  /**
- * A = Point(x,y)
- * B = Point(a,b)
- * C = Point(u,v)
- * tinh chu vi tam giac ABC
- */
+module.exports = Point
